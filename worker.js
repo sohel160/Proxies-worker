@@ -38,12 +38,12 @@ proxies:
 - name: proxy1
   type: http
   server: 103.69.150.138
-  port: 9859
+  port: 
 
 - name: proxy2
   type: http
   server: 103.109.96.20
-  port: 9862
+  port: 
 
 `
 
