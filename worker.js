@@ -37,13 +37,28 @@ proxies:
 
 - name: proxy1
   type: http
-  server: 103.69.150.138
-  port: 
-
+  server: 144.48.108.121
+  port: 5452
 - name: proxy2
   type: http
+  server: 103.69.150.114
+  port: 9855
+- name: proxy3
+  type: http
   server: 103.109.96.20
-  port: 
+  port: 9862
+- name: proxy4
+  type: http
+  server: 103.69.150.138
+  port: 9859
+- name: proxy5
+  type: http
+  server: 27.147.195.166
+  port: 27271
+- name: proxy6
+  type: http
+  server: 103.198.132.93
+  port: 2610
 
 `
 
