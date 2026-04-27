@@ -59,12 +59,14 @@ proxies:
   type: http
   server: 103.198.132.93
   port: 2610
-- name: socks1
-  type: socks5
-  server: 103.198.132.171
-  port: 4742
-  username: UvWlkYL
-  password: UvWlkYL
+- name: proxy7
+  type: http
+  server: 27.147.221.155
+  port: 27271
+  - name: proxy8
+  type: http
+  server: 144.48.108.122
+  port: 5254
 
 `
 
