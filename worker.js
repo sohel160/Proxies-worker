@@ -66,7 +66,7 @@ proxies:
 - name: proxy8
   type: http
   server: 144.48.108.122
-  port: 5254
+  port: 5452
 
 `
 
