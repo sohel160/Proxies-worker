@@ -65,7 +65,7 @@ proxies:
   port: 27271
 - name: proxy8
   type: http
-  serve15r: 144.48.108.122
+  server: 144.48.108.122
   port: 5254
 
 `
