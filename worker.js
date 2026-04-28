@@ -35,7 +35,7 @@ export default {
     const proxies = `
 proxies:
 
- - name: "socks1"
+  - name: "socks1"
     type: socks5
     server: 103.73.39.158
     port: 9168
@@ -76,7 +76,6 @@ proxies:
     port: 1080
     username: ud78992dc3232
     password: q8qeMjqeqQzUWjo7
-
 `
 
     return new Response(proxies, {
