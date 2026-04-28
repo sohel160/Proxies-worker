@@ -35,38 +35,47 @@ export default {
     const proxies = `
 proxies:
 
-- name: proxy1
-  type: http
-  server: 144.48.108.121
-  port: 5452
-- name: proxy2
-  type: http
-  server: 103.198.132.93
-  port: 2610
-- name: proxy3
-  type: http
-  server: 103.109.96.20
-  port: 9862
-- name: proxy4
-  type: http
-  server: 103.69.150.138
-  port: 9859
-- name: proxy5
-  type: http
-  server: 27.147.195.166
-  port: 27271
-- name: proxy6
-  type: http
-  server: 103.198.132.93
-  port: 2610
-- name: proxy7
-  type: http
-  server: 27.147.221.155
-  port: 27271
-- name: proxy8
-  type: http
-  server: 144.48.108.122
-  port: 5452
+ - name: "socks1"
+    type: socks5
+    server: 103.73.39.158
+    port: 9168
+    username: uc97af4ffb4f6
+    password: UtgaLARZDrjpv_Ox
+
+  - name: "socks2"
+    type: socks5
+    server: 103.186.238.117
+    port: 9167
+    username: u7dc1a4dc5707
+    password: FWzt41-zVKWztkeH
+
+  - name: "socks3"
+    type: socks5
+    server: 103.186.238.116
+    port: 9167
+    username: u67062e5ec24f
+    password: GguPb5w4cC_WYDer
+
+  - name: "socks4"
+    type: socks5
+    server: 103.120.221.37
+    port: 9168
+    username: u715b6d5089e7
+    password: Rus-Lj_aNgw43Vbn
+
+  - name: "socks5"
+    type: socks5
+    server: 103.179.155.84
+    port: 9168
+    username: u0a6309cf4e11
+    password: -nYl6DiOoBBJ3g3O
+
+  - name: "socks6"
+    type: socks5
+    server: 103.175.242.0
+    port: 1080
+    username: ud78992dc3232
+    password: q8qeMjqeqQzUWjo7
 
 `
 
