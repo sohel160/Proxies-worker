@@ -41,8 +41,8 @@ proxies:
   port: 5452
 - name: proxy2
   type: http
-  server: 103.69.150.114
-  port: 9855
+  server: 103.198.132.93
+  port: 2610
 - name: proxy3
   type: http
   server: 103.109.96.20
