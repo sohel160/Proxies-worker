@@ -35,7 +35,7 @@ export default {
     const proxies = `
 proxies:
 
-- name: speed1
+  - name: speed1
     type: socks5
     server: 180.92.235.222
     port: 16626
@@ -48,7 +48,7 @@ proxies:
     port: 16626
     username: uf7c149982eeb
     password: 3j8M5GOJBxbFphzj
-    
+
   - name: speed3
     type: socks5
     server: 103.79.178.206
