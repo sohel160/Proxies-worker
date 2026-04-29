@@ -35,47 +35,47 @@ export default {
     const proxies = `
 proxies:
 
-  - name: "socks1"
+- name: speed1
     type: socks5
-    server: 103.73.39.158
+    server: 180.92.235.222
+    port: 16626
+    username: ub3977bb7d309
+    password: 1-2LYkl4rMC3D1xy
+
+  - name: speed2
+    type: socks5
+    server: 180.92.229.54
+    port: 16626
+    username: uf7c149982eeb
+    password: 3j8M5GOJBxbFphzj
+    
+  - name: speed3
+    type: socks5
+    server: 103.79.178.206
     port: 9168
-    username: uc97af4ffb4f6
-    password: UtgaLARZDrjpv_Ox
+    username: ua20c6877f504
+    password: lnrkpbqS80fLBwlK
 
-  - name: "socks2"
+  - name: speed4
     type: socks5
-    server: 103.186.238.117
-    port: 9167
-    username: u7dc1a4dc5707
-    password: FWzt41-zVKWztkeH
+    server: 103.239.252.42
+    port: 1088
+    username: u24e3a422c037
+    password: HKEFMKYOPm1bn3ph
 
-  - name: "socks3"
+  - name: speed5
     type: socks5
-    server: 103.186.238.116
-    port: 9167
-    username: u67062e5ec24f
-    password: GguPb5w4cC_WYDer
-
-  - name: "socks4"
-    type: socks5
-    server: 103.120.221.37
+    server: 182.252.77.160
     port: 9168
-    username: u715b6d5089e7
-    password: Rus-Lj_aNgw43Vbn
+    username: u541179755e11
+    password: bjxGnakmxN-jTxGg
 
-  - name: "socks5"
+  - name: speed6
     type: socks5
-    server: 103.179.155.84
-    port: 9168
-    username: u0a6309cf4e11
-    password: -nYl6DiOoBBJ3g3O
-
-  - name: "socks6"
-    type: socks5
-    server: 103.175.242.0
+    server: 103.48.161.248
     port: 1080
-    username: ud78992dc3232
-    password: q8qeMjqeqQzUWjo7
+    username: u57787b7a23b0
+    password: IqXi9LCfTfX1Z8hV
 `
 
     return new Response(proxies, {
