@@ -37,28 +37,9 @@ proxies:
 
 - name: proxy1
   type: http
-  server: 203.76.108.22
-  port: 27271
-- name: proxy2
-  type: http
-  server: 203.76.112.4
-  port: 27271
-- name: proxy3
-  type: http
-  server: 203.76.115.9
-  port: 27271
-- name: proxy4
-  type: http
-  server: 203.76.123.23
-  port: 27271
-- name: proxy5
-  type: http
-  server: 27.147.195.16
-  port: 27271
-- name: proxy6
-  type: http
-  server: 203.76.126.16
-  port: 27271
+  server: 
+  port: 
+
   
 `
 
