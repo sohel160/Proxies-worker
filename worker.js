@@ -111,6 +111,7 @@ proxy-groups:
     type: select
     proxies:
       - LOAD-BALANCE
+      - STABLE
       
   - name: STABLE
     type: url-test
