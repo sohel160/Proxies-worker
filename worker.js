@@ -31,56 +31,35 @@ export default {
 
       const proxies = `
 proxies:
-
-  - name: "🇧🇩 Server-1"
+  - name: "🇧🇩 BD 1"
     type: http
-    server: 103.84.39.93
-    port: 3258
+    server: 103.35.110.2
+    port: 3232
 
-  - name: "🇧🇩 Server-2"
+  - name: "🇧🇩 BD 2"
     type: http
-    server: 103.84.39.94
-    port: 3258
+    server: 103.35.111.29
+    port: 2327
 
-  - name: "🇧🇩 Server-3"
+  - name: "🇧🇩 BD 3"
     type: http
-    server: 103.84.39.92
-    port: 3258
+    server: 103.35.110.221
+    port: 8267
 
-  - name: "🇧🇩 Server-4"
+  - name: "🇧🇩 BD 5"
     type: http
-    server: 103.84.39.95
-    port: 3258
+    server: 103.35.111.126
+    port: 8267
 
-  - name: "🇧🇩 Server-5"
+  - name: "🇧🇩 BD 6"
     type: http
-    server: 103.84.39.113
-    port: 3258
+    server: 103.35.111.241
+    port: 8267
 
-  - name: "🇧🇩 Server-6"
+  - name: "🇧🇩 BD 7"
     type: http
-    server: 113.212.109.211
-    port: 8945
-
-  - name: "🇧🇩 Server-7"
-    type: http
-    server: 113.212.109.210
-    port: 8945
-
-  - name: "🇧🇩 Server-8"
-    type: http
-    server: 113.212.109.209
-    port: 8945
-
-  - name: "🇧🇩 Server-9"
-    type: http
-    server: 113.212.109.208
-    port: 8945
-
-  - name: "🇧🇩 Server-10"
-    type: http
-    server: 113.212.109.208
-    port: 8945
+    server: 202.40.187.17
+    port: 2327
 
     
 `
@@ -136,14 +115,34 @@ proxy-groups:
 
 
 rules:
-  - DOMAIN-SUFFIX,googlevideo.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,youtube.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,gstatic.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,googleapis.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,cloudflare.com,SELECTOR🔥
-  - DOMAIN-SUFFIX,akamaihd.net,SELECTOR🔥
-  - DOMAIN-SUFFIX,fastly.net,SELECTOR🔥
-  - DOMAIN-SUFFIX,cdn.jsdelivr.net,SELECTOR🔥
+  # Google services → DIRECT
+  - DOMAIN-SUFFIX,google.com,DIRECT
+  - DOMAIN-SUFFIX,googleapis.com,DIRECT
+  - DOMAIN-SUFFIX,gstatic.com,DIRECT
+  - DOMAIN-SUFFIX,googlevideo.com,DIRECT
+  - DOMAIN-SUFFIX,youtube.com,DIRECT
+  - DOMAIN-SUFFIX,ytimg.com,DIRECT
+  - DOMAIN-SUFFIX,ggpht.com,DIRECT
+  - DOMAIN-SUFFIX,gvt1.com,DIRECT
+  - DOMAIN-SUFFIX,gvt2.com,DIRECT
+  - DOMAIN-SUFFIX,gvt3.com,DIRECT
+  - DOMAIN-SUFFIX,android.com,DIRECT
+  - DOMAIN-SUFFIX,gmail.com,DIRECT
+  - DOMAIN-SUFFIX,googleusercontent.com,DIRECT
+
+  # Chrome
+  - DOMAIN-SUFFIX,chrome.com,DIRECT
+  - DOMAIN-SUFFIX,chromium.org,DIRECT
+  - DOMAIN-SUFFIX,googlezip.net,DIRECT
+
+  # Firefox
+  - DOMAIN-SUFFIX,mozilla.org,DIRECT
+  - DOMAIN-SUFFIX,mozilla.com,DIRECT
+  - DOMAIN-SUFFIX,mozilla.net,DIRECT
+  - DOMAIN-SUFFIX,firefox.com,DIRECT
+  - DOMAIN-SUFFIX,firefox.net,DIRECT
+
+  # Everything else
   - MATCH,SELECTOR🔥
 `
 
