@@ -31,36 +31,23 @@ export default {
 
       const proxies = `
 proxies:
-  - name: "🇧🇩 BD 1"
-    type: http
-    server: 103.35.110.2
-    port: 3232
-
-  - name: "🇧🇩 BD 2"
-    type: http
-    server: 103.35.111.29
-    port: 2327
-
-  - name: "🇧🇩 BD 3"
-    type: http
-    server: 103.35.110.221
-    port: 8267
-
-  - name: "🇧🇩 BD 5"
-    type: http
-    server: 103.35.111.126
-    port: 8267
-
-  - name: "🇧🇩 BD 6"
-    type: http
-    server: 103.35.111.241
-    port: 8267
-
-  - name: "🇧🇩 BD 7"
-    type: http
-    server: 202.40.187.17
-    port: 2327
-
+  - { name: "HTTP-01", type: http, server: 113.212.109.164, port: 22622 }
+  - { name: "HTTP-02", type: http, server: 113.212.109.163, port: 22622 }
+  - { name: "HTTP-03", type: http, server: 113.212.109.132, port: 22622 }
+  - { name: "HTTP-04", type: http, server: 103.84.36.225, port: 52148 }
+  - { name: "HTTP-05", type: http, server: 103.84.36.73, port: 52148 }
+  - { name: "HTTP-06", type: http, server: 113.212.109.188, port: 22622 }
+  - { name: "HTTP-07", type: http, server: 103.84.37.161, port: 52148 }
+  - { name: "HTTP-08", type: http, server: 113.212.109.56, port: 22622 }
+  - { name: "HTTP-09", type: http, server: 103.84.38.110, port: 22622 }
+  - { name: "HTTP-10", type: http, server: 103.84.38.84, port: 22622 }
+  - { name: "HTTP-11", type: http, server: 103.84.38.52, port: 22622 }
+  - { name: "HTTP-12", type: http, server: 103.84.37.196, port: 22622 }
+  - { name: "HTTP-13", type: http, server: 103.84.37.132, port: 22622 }
+  - { name: "HTTP-14", type: http, server: 103.84.37.123, port: 22622 }
+  - { name: "HTTP-15", type: http, server: 103.84.37.100, port: 22622 }
+  - { name: "HTTP-16", type: http, server: 103.84.37.72, port: 22622 }
+  - { name: "HTTP-17", type: http, server: 103.84.36.237, port: 22622 }
     
 `
 
