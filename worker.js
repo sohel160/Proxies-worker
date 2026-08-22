@@ -35,9 +35,9 @@ proxies:
   - { name: "HTTP-02", type: http, server: 113.212.109.163, port: 22622 }
   - { name: "HTTP-03", type: http, server: 113.212.109.132, port: 22622 }
   - { name: "HTTP-04", type: http, server: 103.84.36.225, port: 52148 }
-  - { name: "HTTP-05", type: http, server: 103.84.36.73, port: 52148 }
+  - { name: "HTTP-05", type: http, server: 103.84.36.237, port: 22622 }
   - { name: "HTTP-06", type: http, server: 113.212.109.188, port: 22622 }
-  - { name: "HTTP-07", type: http, server: 103.84.37.161, port: 52148 }
+  - { name: "HTTP-07", type: http, server: 103.84.36.237, port: 22622 }
   - { name: "HTTP-08", type: http, server: 113.212.109.56, port: 22622 }
   - { name: "HTTP-09", type: http, server: 103.84.38.110, port: 22622 }
   - { name: "HTTP-10", type: http, server: 103.84.38.84, port: 22622 }
