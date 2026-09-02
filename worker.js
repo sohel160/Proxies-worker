@@ -48,12 +48,12 @@ proxies:
   - { name: "HTTP-15", type: http, server: 103.84.37.100, port: 22622 }
   - { name: "HTTP-16", type: http, server: 103.84.37.72, port: 22622 }
   - { name: "HTTP-17", type: http, server: 103.84.36.237, port: 22622 }
-    
-  
 `
 
       return new Response(proxies, {
-        headers: { "Content-Type": "text/plain" }
+        headers: {
+          "Content-Type": "text/plain; charset=utf-8"
+        }
       })
     }
 
@@ -73,13 +73,13 @@ proxy-providers:
       interval: 60
 
 proxy-groups:
-  
+
   - name: SELECTOR🔥
     type: select
     proxies:
       - LOAD-BALANCE
       - STABLE
-      
+
   - name: STABLE
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -100,7 +100,6 @@ proxy-groups:
     type: select
     use:
       - myprovider
-
 
 rules:
   # Google services → DIRECT
@@ -135,7 +134,9 @@ rules:
 `
 
     return new Response(config, {
-      headers: { "Content-Type": "text/plain" }
+      headers: {
+        "Content-Type": "text/plain; charset=utf-8"
+      }
     })
   }
 }
